@@ -8,7 +8,7 @@ double executeOperation(std::string op){
 	double x,y;
 
 	instr.str (op); //initialize instr with op
-	instr >>std::skipws>>x >>operand >>y;
+	instr >>x >>operand >>y;
 
 	switch (operand){
 		case '+':
